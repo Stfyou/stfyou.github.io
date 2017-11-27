@@ -511,7 +511,10 @@ body {
 
 .outer-container {
   max-width: 1200px;
-  margin: 0 auto;
+  margin-top: -3em;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
   max-height: 100%;
 }
 
@@ -529,7 +532,7 @@ body {
 }
 
 .mysites {
-  margin-top: 40px;
+  margin-top: 1em;
 }
 
 body {
@@ -566,4 +569,8 @@ a:hover, a:focus {
 .mysites_item {
   display: inline;
   margin: 0 10px;
+}
+
+.inner-container > p{
+    margin: .5em;
 }
